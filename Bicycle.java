@@ -1,6 +1,6 @@
 package sg.edu.nus.iss;
 
-public class Bicycle implements interface {
+public class Bicycle implements Interface {
     private int gear;
     private int speed;
 
@@ -26,12 +26,12 @@ public class Bicycle implements interface {
     }
 
     @Override
-    public void applyBrake (int decreaseValue) {
+    public void applyBrake(int decreaseValue) {
         speed = speed - decreaseValue;
     }
 
     @Override
-    public void speedUp (int increaseValue) {
+    public void speedUp(int increaseValue) {
         speed += increaseValue;
     }
 
